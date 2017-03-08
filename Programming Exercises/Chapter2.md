@@ -30,4 +30,4 @@ Have the program use two user-defined functions in addition to  `main()` : one n
   ```
  Have the program use two user-defined functions in addition to  main() : one named `br()` that prints “Brazil, Russia” once, and one named `ic()` that prints “India, China” once. Let `main()` take care of any additional printing tasks.
 
-6. Write a program that creates an integer variable called  toes . Have the program set `toes` to  10 . Also have the program calculate what twice  toes  is and what  toes  squared is. The program should print all three values, identifying them.
+6. Write a program that creates an integer variable called `toes` . Have the program set `toes` to  10 . Also have the program calculate what twice `toes` is and what `toes` squared is. The program should print all three values, identifying them.
