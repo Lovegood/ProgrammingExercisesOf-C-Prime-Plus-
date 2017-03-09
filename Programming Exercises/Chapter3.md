@@ -8,7 +8,7 @@
   "By the Great Pumpkin, what was that!"     
   ```
 
-4. Write a program that reads in a floating-point number and prints it first in decimal-point notation, then in exponential notation, and then, if your system supports it, p notation.   
+4. Write a program that reads in a floating-point number and prints it first in decimal-point notation, then in exponential notation, and then, if your system supports it, p notation.	*Cytosine摘自对应第六版中文版:p notation，即p计数法，指十六进制计数法。*   
 Have the output use the following format (the actual number of digits displayed for the exponent depends on the system):  
 	```
   Enter a floating-point value:  64.25 
@@ -16,7 +16,7 @@ Have the output use the following format (the actual number of digits displayed 
   exponential notation: 6.425000e+01
   p notation: 0x1.01p+6     
 	```
-   
+	
 5. There are approximately 3.156 × 10 7  seconds in a year. Write a program that requests your age in years and then displays the equivalent number of seconds.    
    
 6. The mass of a single molecule of water is about 3.0×10 -23  grams. A quart of water is about 950 grams. Write a program that requests an amount of water, in quarts, and displays the number of water molecules in that amount.    
