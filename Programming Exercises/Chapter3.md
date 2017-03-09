@@ -8,7 +8,7 @@
   "By the Great Pumpkin, what was that!"     
   ```
 
-4. Write a program that reads in a floating-point number and prints it first in decimal-point notation, then in exponential notation, and then, if your system supports it, p notation.	*Cytosine摘自对应第六版中文版:p notation，即p计数法，指十六进制计数法。*   
+4. Write a program that reads in a floating-point number and prints it first in decimal-point notation, then in exponential notation, and then, if your system supports it, p notation.	*(p notation，即p计数法，指十六进制计数法。摘自对应第六版中文版)*         
 Have the output use the following format (the actual number of digits displayed for the exponent depends on the system):  
 	```
   Enter a floating-point value:  64.25 
