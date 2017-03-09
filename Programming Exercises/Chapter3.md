@@ -1,6 +1,6 @@
 1. Find out what your system does with integer overflow, floating-point overflow, and floating-point underflow by using the experimental approach; that is, write programs having these problems. (You can check the discussion in  Chapter 4 of `limits.h` and `float.h` to get guidance on the largest and smallest values.)    
    
-2. Write a program that asks you to enter an ASCII code value, such as 66, and then prints the character having that ASCII code.    
+2. Write a program that asks you to enter an ASCII code value, such as `66`, and then prints the character having that ASCII code.    
    
 3. Write a program that sounds an alert and then prints the following text:
 	```
