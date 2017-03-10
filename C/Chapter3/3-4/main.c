@@ -4,10 +4,12 @@
 int main()
 {
     float num;
-    printf("Please enter a float-point number.\n");
+    printf("Enter a floating-point value:");
     scanf("%f",&num);
 
-    printf("%f",num);
-    printf("");
+    printf("fixed-point notation:%f\n",num);
+    printf("exponential notation:%e\n",num);
+    printf("p notation:%a\n",num);
+
     return 0;
 }
