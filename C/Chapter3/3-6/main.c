@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define quartToGrams 950
-#define gramEveryMolecule 3//10^-23直接输出 否则ull都不够用QAQ
+#define gramEveryMolecule 3//后面的科学计数法进行另外的处理 否则ull都不够用QAQ
 
 int main()
 {
