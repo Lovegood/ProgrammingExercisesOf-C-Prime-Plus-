@@ -9,3 +9,6 @@
 
 ## int转字符串 （4-2）
 itoa(integer,string,进制)
+
+## 输出%
+printf("%d %% %d",,);
