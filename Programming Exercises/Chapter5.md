@@ -24,7 +24,23 @@ Display results in the following format:
 	
 	*我感觉那个输入168.7输出168.0是作者出现的笔误，不太确定，求答案。——Cytosine*
    
-5. Change the program `addemup.c`(Listing 5.13), which found the sum of the first 20 integers. (If you prefer, you can think of  `addemup.c` as a program that calculates how much money you get in 20 days if you receive $1 the first day, $2 the second day, $3 the third day, and so on.) Modify the program so that you can tell it interactively how far the calculation should proceed. That is, replace the `20` with a variable that is read in.    
+5. Change the program `addemup.c`(Listing 5.13), which found the sum of the first 20 integers. (If you prefer, you can think of  `addemup.c` as a program that calculates how much money you get in 20 days if you receive $1 the first day, $2 the second day, $3 the third day, and so on.) Modify the program so that you can tell it interactively how far the calculation should proceed. That is, replace the `20` with a variable that is read in.		
+
+	**程序清单 5. 13 addemup.c 程序**
+	```
+	/* addemup.c -- 几种常见的语句 */ 
+	#include <stdio. h> 
+	int main(void) 　 　 　 　 　				/*计算前20个整数的和*/ 
+	{ 
+		int count, sum; 　 　 　 　		 		 /*声明[1]*/ 
+		count = 0; 　 　 　 　 　 　 　 	　 /*表达式语句*/ 
+		sum = 0; 　 　 　 　 　 　 　 　 　 /*表达式语句*/ 
+		while (count++ < 20) 　 　 　 			/*迭代语句*/ 
+			sum = sum + count; 
+		printf(" sum = %d\ n", sum); 			 /*表达式语句[2]*/ 
+		return 0; 　 　 　 　 　 　 　			 /*跳转语句*/ 
+	}
+	```
    
 6. Now modify the program of Programming Exercise 5 so that it computes the sum of the squares of the integers. (If you prefer, how much money you receive if you get $1 the first day, $4 the second day, $9 the third day, and so on. This looks like a much better deal!) C doesn’t have a squaring function, but you can use the fact that the square of `n` is `n * n`. 
  
