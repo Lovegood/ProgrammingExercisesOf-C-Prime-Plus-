@@ -1,8 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    printf("Hello world!\n");
+    int count=0,sum=0,max;
+
+    printf("How many numbers do you want to calculate?\n");
+    scanf("%d",&max);
+
+    while(count++ <max){
+        sum+=count;
+    }
+
+    printf("sum=%d\n",sum);
+
     return 0;
 }
