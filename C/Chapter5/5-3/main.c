@@ -20,7 +20,5 @@ int main()
         printf("%d days are %d weeks, %d days.\n",input,week,day);
     }
 
-
-
     return 0;
 }
