@@ -19,8 +19,8 @@ Display results in the following format:
   Enter a height in centimeters (<=0 to quit):  0 
   bye     
 	```
-	*1 inch = 2.54 cm*[维基百科](https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%AF%B8#.E5.96.AE.E4.BD.8D.E6.8F.9B.E7.AE.97)  
-	*1 foot = 30.48 cm*[维基百科](https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%B0%BA)
+	*1 inch = 2.54 cm*  
+	*1 foot = 12 inch* 参考[维基百科](https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%AF%B8#.E5.96.AE.E4.BD.8D.E6.8F.9B.E7.AE.97)  
    
 5. Change the program `addemup.c`(Listing 5.13), which found the sum of the first 20 integers. (If you prefer, you can think of  `addemup.c` as a program that calculates how much money you get in 20 days if you receive $1 the first day, $2 the second day, $3 the third day, and so on.) Modify the program so that you can tell it interactively how far the calculation should proceed. That is, replace the `20` with a variable that is read in.    
    
