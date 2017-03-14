@@ -43,8 +43,8 @@
      ABCDCBA  
     ABCDEDCBA  
   ```
-  *(缩进由下到上依次增加1,Cytosine)*  
- The pattern should extend to the character entered. For example, the preceding pattern would result from an input value of `E`.Hint: Use an outer loop to handle the rows. Use three inner loops in a row, one to handle the spaces, one for printing letters in ascending order, and one for printing letters in descending order. If your system doesn’t use ASCII or a similar system that represents letters in strict number order, see the suggestion in programming exercise 3.    
+  *(缩进由下到上依次增加1;从字母A一直输出到用户输入的字母，不是只输出五行哦~Cytosine)*  
+  The pattern should extend to the character entered. For example, the preceding pattern would result from an input value of `E`.Hint: Use an outer loop to handle the rows. Use three inner loops in a row, one to handle the spaces, one for printing letters in ascending order, and one for printing letters in descending order. If your system doesn’t use ASCII or a similar system that represents letters in strict number order, see the suggestion in programming exercise 3.    
    
 6. Write a program that prints a table with each line giving an integer, its square, and its cube. Ask the user to input the lower and upper limits for the table. Use a  for  loop.    
    
