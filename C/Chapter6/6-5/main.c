@@ -7,20 +7,19 @@ int main()
     printf("Please enter an uppercase letter:");
     scanf("%c",&input);
 
-    for(int outer=1;outer<=input-64;outer++){//ASCII A 65
-        for(int i=outer;i<input-64;i++){
+    for(char outer='A';outer<=input;outer++){//ASCII A 65
+        for(int i=outer;i<input;i++){
             printf(" ");
         }
-        for(int ascending=0;ascending<outer;ascending++){
-            printf("%c",'A'+ascending);
+        char ascending;
+        for(ascending='A';ascending<outer;ascending++){
+            printf("%c",ascending);
         }
-        for(){
-            printf("%c",);
+        for(;ascending>='A';ascending--){
+            printf("%c",ascending);
         }
         printf("\n");
     }
-
-    printf("\nend");
 
     return 0;
 }
