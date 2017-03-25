@@ -3,7 +3,7 @@
 
 int main()
 {
-    float f1,f2,result;
+    float f1,f2;
 
     printf("Please enter two float-point numbers and separated them by space.\n");
     while(scanf("%f %f",&f1,&f2)==2){
