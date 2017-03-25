@@ -50,19 +50,19 @@
    
 7. Write a program that reads a single word into a character array and then prints the word backward. Hint: Use `strlen()` ( Chapter   4   ) to compute the index of the last character in the array.    
    
-8. Write a program that requests two floating-point numbers and prints the value of their difference divided by their product. Have the program loop through pairs of input values until the user enters nonnumeric input.    
+8. Write a program that requests two floating-point numbers and prints the value of their difference divided by their product.*(打印两数之差除以两数乘积的结果。)* Have the program loop through pairs of input values until the user enters nonnumeric input.   
    
 9. Modify exercise 8 so that it uses a function to return the value of the calculation.    
 
 10. Write a program that requests lower and upper integer limits, calculates the sum of all the integer squares from the square of the lower limit to the square of the upper limit, and displays the answer. The program should then continue to prompt for limits and display answers until the user enters an upper limit that is equal to or less than the lower limit. A sample run should look something like this:  
-  ```
-  Enter lower and upper integer limits: 5 9 
-  The sums of the squares from 25 to 81 is 255
-  Enter next set of limits: 3 25 
-  The sums of the squares from 9 to 625 is 5520
-  Enter next set of limits: 5 5 
-  Done 
-  ```
+   ```
+   Enter lower and upper integer limits: 5 9 
+   The sums of the squares from 25 to 81 is 255
+   Enter next set of limits: 3 25 
+   The sums of the squares from 9 to 625 is 5520
+   Enter next set of limits: 5 5 
+   Done 
+   ```
 
 11. Write a program that reads eight integers into an array and then prints them in reverse order.    
 
