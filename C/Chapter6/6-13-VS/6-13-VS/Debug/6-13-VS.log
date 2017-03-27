@@ -1,0 +1,4 @@
+﻿  main.c
+d:\github clon path\programmingexercisesof-c-prime-plus-\c\chapter6\6-13-vs\6-13-vs\main.c(11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  6-13-VS.vcxproj -> D:\GitHub Clon path\ProgrammingExercisesOf-C-Prime-Plus-\C\Chapter6\6-13-VS\Debug\6-13-VS.exe
+  6-13-VS.vcxproj -> D:\GitHub Clon path\ProgrammingExercisesOf-C-Prime-Plus-\C\Chapter6\6-13-VS\Debug\6-13-VS.pdb (Partial PDB)
